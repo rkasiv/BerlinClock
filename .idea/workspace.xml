@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15949e5e-5005-408c-b488-6968ae1e7722" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Tesco/Bootcamp/Excercise/BerlinClockGUI.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Tesco/Bootcamp/Excercise/Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Tesco/Bootcamp/Excercise/Invoke.class" afterPath="$PROJECT_DIR$/target/classes/Tesco/Bootcamp/Excercise/Invoke.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Tesco/Bootcamp/Excercise/Invoke.java" afterPath="$PROJECT_DIR$/src/main/java/Tesco/Bootcamp/Excercise/Invoke.java" />
     </list>
     <ignored path="Excercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -483,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1481894818792</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit Test - after UI creation">
+      <created>1482758500065</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1482758500065</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit Test - after UI creation">
+      <created>1482758536642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1482758536642</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
