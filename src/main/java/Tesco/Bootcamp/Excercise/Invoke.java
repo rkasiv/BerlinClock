@@ -7,9 +7,38 @@ public class Invoke {
 
     public static void main(String[] args) {
 
-        Clock clock = new Clock();
-        clock.setTime();
-        clock.displayTime();
+        int hh;
+        int mm;
+        int ss;
+        String display;
+        hh= (int) Math.floor(Math.random()*23);
+
+        mm = (int) Math.floor(Math.random()*59);
+        ss = (int) Math.floor(Math.random()*59);
+
+//        Clock clock = new Clock();
+//        clock.setTime();
+//        clock.displayTime();
+        display = String.format("%02d:%02d:%02d",hh,mm,ss);
+        System.out.println("The input date is "+ display);
+        BerlinClock berlinClock = new BerlinClock();
+        berlinClock.setHour(hh);
+        berlinClock.setMin(mm);
+        berlinClock.setSec(ss);
+       int hourgetter = berlinClock.getHour();
+        System.out.println("hour test"+ hourgetter);
+        berlinClock.calculate();
+        //BerlinClockGUI bc = new BerlinClockGUI();
+        //int numfivehourone = berlinClock.
+
+
+        BerlinClockGUI bg = new BerlinClockGUI(berlinClock.noofRowone5,berlinClock.noofRowTwo1,berlinClock.noofRowthree5,berlinClock.noofRowfour1);
+        bg.setVisible(true);
+        bg.setSize(5000,5000);
+
+
+
+
 
     }
 }
