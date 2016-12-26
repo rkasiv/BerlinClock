@@ -48,13 +48,14 @@ public class BerlinClock {
         noofRowTwo1 = hour % 5;
         noofRowthree5 = (int) Math.floor(min/5);
         noofRowfour1 = min % 5;
+        if ((sec % 2)== 0) { evenorodd = true;
 
         System.out.println("Number of 5s in hour " + noofRowone5);
         System.out.println("Number of 1s in hour "+ noofRowTwo1);
         System.out.println("Number of 5s in mins" + noofRowthree5);
         System.out.println ("Number of 1s in mins" + noofRowfour1);
         System.out.println("even sec" + evenorodd);
-        if ((sec % 2)== 0) { evenorodd = true;}
+        }
 
 
     }

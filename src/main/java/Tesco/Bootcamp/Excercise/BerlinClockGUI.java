@@ -54,13 +54,17 @@ public class BerlinClockGUI extends JFrame {
     int noofRowTwo1;
     int noofRowthree5;
     int noofRowfour1;
+    boolean evenorodd;
 
-    public BerlinClockGUI(int noofRowone5,int noofRowTwo1,int noofRowthree5,int noofRowfour1 ) {
+    public BerlinClockGUI(boolean evenorodd,int noofRowone5,int noofRowTwo1,int noofRowthree5,int noofRowfour1 ) {
 
         this.noofRowone5 = noofRowone5;
         this.noofRowTwo1 = noofRowTwo1;
         this.noofRowthree5 = noofRowthree5;
         this.noofRowfour1 = noofRowfour1;
+        this.evenorodd = evenorodd;
+
+
 
         initUI ();
     }
@@ -196,6 +200,16 @@ public class BerlinClockGUI extends JFrame {
         oneminRow.put(3,button23);
         oneminRow.put(4,button24);
 
+        if (evenorodd == true){
+            button1.setText("TRUE");
+            button1.setBackground(Color.red);
+
+        }
+        else {
+            button1.setText("FALSE");
+            button1.setBackground(Color.orange);
+
+        }
 
         for (int a= 1; a<= noofRowone5;a++) {
 

@@ -27,12 +27,15 @@ public class Invoke {
         berlinClock.setSec(ss);
        int hourgetter = berlinClock.getHour();
         System.out.println("hour test"+ hourgetter);
+        System.out.println("before calculate sec"+berlinClock.evenorodd);
+
         berlinClock.calculate();
         //BerlinClockGUI bc = new BerlinClockGUI();
         //int numfivehourone = berlinClock.
+        System.out.println("after calculate sec"+berlinClock.evenorodd);
 
 
-        BerlinClockGUI bg = new BerlinClockGUI(berlinClock.noofRowone5,berlinClock.noofRowTwo1,berlinClock.noofRowthree5,berlinClock.noofRowfour1);
+        BerlinClockGUI bg = new BerlinClockGUI(berlinClock.evenorodd,berlinClock.noofRowone5,berlinClock.noofRowTwo1,berlinClock.noofRowthree5,berlinClock.noofRowfour1);
         bg.setVisible(true);
         bg.setSize(5000,5000);
 
